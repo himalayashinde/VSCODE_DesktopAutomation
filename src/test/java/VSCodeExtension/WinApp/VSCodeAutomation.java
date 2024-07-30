@@ -32,6 +32,7 @@ public class VSCodeAutomation {
             driver.findElementByName("Python").click();
             driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
             driver.findElementByName("Global").click();
+           
 
             // Assuming the Open dialog is now in focus, enter the path to a file and open it
             // This may vary depending on your system setup
